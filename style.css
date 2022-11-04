@@ -1,0 +1,84 @@
+/* medidas pantallas:
+-576, +576, +768, +992, +1200 */
+
+@media(max-width:1200px) {
+    #index {
+        background-size: 1200px;
+        background-image: url("/assets/multicolor.jpg");
+        background-repeat: repeat;
+    }
+}
+
+@media(min-width:1201px) {
+    #index {
+        background-size: 2400px;
+        background-image: url("/assets/multicolor.jpg");
+        background-repeat: repeat;
+    }
+}
+
+@media(max-width:1200px) {
+    #contacto {
+        background-size: 1200px;
+        background-image: url("/assets/crema02.jpg");
+        background-repeat: repeat;
+    }
+}
+
+@media(min-width:1201px) {
+    #contacto {
+        background-size: 2400px;
+        background-image: url("/assets/crema02.jpg");
+        background-repeat: repeat;
+    }
+}
+
+#trabajos {
+    background-size: 2400px;
+    background-image: url("/assets/petroleo02.jpg");
+    background-repeat: repeat;
+}
+
+
+.card-body {
+    background-image: url("/assets/petroleo.jpg");
+    color: aliceblue;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+/* @media(min-width:1201px) {
+    #trabajos {
+        background-size: 2400px;
+        background-image: url("/assets/petroleo02.jpg");
+        background-repeat: repeat;
+    }
+} */
+
+#pruebaLorems {
+    color: aliceblue;
+    font-weight: bold;
+    ;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+}
